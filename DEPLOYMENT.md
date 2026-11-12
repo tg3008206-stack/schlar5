@@ -1,4 +1,4 @@
-# EduPlus ERP — Demo Deployment Guide
+# Schlar ERP — Demo Deployment Guide
 
 This application is ready for immediate deployment as a 100% self-contained frontend demo. All keys, credentials, and mock datasets are pre-configured out-of-the-box.
 
@@ -47,10 +47,10 @@ The application will be live at `http://localhost:3000`.
 ### Option 3: Docker Container Deployment
 ```bash
 # 1. Build the Docker image
-docker build -t eduplus-erp .
+docker build -t schlar-erp .
 
 # 2. Run the container
-docker run -p 3000:3000 eduplus-erp
+docker run -p 3000:3000 schlar-erp
 ```
 Access the application at `http://localhost:3000`.
 

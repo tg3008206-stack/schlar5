@@ -102,7 +102,7 @@ const DemoControlBanner = () => {
               }}
             >
               <FiZap size={12} color="#a78bfa" />
-              <span>Interactive Demo Model</span>
+              <span>Schlar Demo Console</span>
             </div>
 
             <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.65)", fontWeight: 500 }}>

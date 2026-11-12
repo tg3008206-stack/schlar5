@@ -28,9 +28,9 @@ const Signup = () => {
     <div className="login-page">
       <div className="login-card">
         <div className="login-logo">
-          <div className="logo-circle">E+</div>
+          <div className="logo-circle">S</div>
         </div>
-        <div className="login-heading">EduPlus</div>
+        <div className="login-heading">Schlar</div>
         <div className="login-title">Create Student Account</div>
 
         {error && <div className="error-banner">{error}</div>}

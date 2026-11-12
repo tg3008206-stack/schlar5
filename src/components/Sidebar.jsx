@@ -77,9 +77,9 @@ const Sidebar = () => {
             fontWeight: 800,
           }}
         >
-          E+
+          S
         </div>
-        <h1>EduPlus Portal</h1>
+        <h1>Schlar Portal</h1>
       </div>
 
       <nav className="sidebar-nav">

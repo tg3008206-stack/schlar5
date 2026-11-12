@@ -44,12 +44,12 @@ async function startServer() {
   app.get("/api/health", (req, res) => {
     res.json({
       status: "OK",
-      message: "EduPlus API is running 🚀",
+      message: "Schlar API is running 🚀",
       timestamp: new Date().toISOString(),
     });
   });
 
-  // Mount EduPlus API routes
+  // Mount Schlar API routes
   app.use("/api/auth", authRoutes);
   app.use("/api/students", studentRoutes);
   app.use("/api/staff", staffRoutes);
@@ -90,7 +90,7 @@ async function startServer() {
   }
 
   app.listen(PORT, "0.0.0.0", () => {
-    console.log(`🎓 EduPlus School ERP server running on http://0.0.0.0:${PORT}`);
+    console.log(`🎓 Schlar School ERP server running on http://0.0.0.0:${PORT}`);
   });
 }
 

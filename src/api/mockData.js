@@ -1,4 +1,4 @@
-// Self-contained in-browser database for EduPlus Frontend Model
+// Self-contained in-browser database for Schlar Frontend Model
 const STORAGE_PREFIX = "eduplus_db_";
 
 // Comprehensive photo assets for students & staff
