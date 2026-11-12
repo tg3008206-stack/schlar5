@@ -1,0 +1,6 @@
+{
+  "name": "EduPlus - School ERP Management System",
+  "description": "Complete School ERP System built with MERN stack for managing students, faculty, attendance, fees, exams, notices, and academic performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: eduplus-school-erp
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: JWT_SECRET
+        value: eduplus_demo_super_secret_jwt_key_2025_prod
+      - key: MONGO_URI
+        value: mongodb://localhost:27017/eduplus
+      - key: VITE_API_URL
+        value: /api
